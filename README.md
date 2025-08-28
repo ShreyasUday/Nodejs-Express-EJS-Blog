@@ -10,28 +10,9 @@ This is a simple blog website built with Node.js, Express.js for the backend, an
 
 ---
 
-## Project Structure
-
-.
-├── public/
-│   ├── images/
-│   │   └── notepad.png
-│   ├── styles/
-│   │   └── main.css
-├── views/
-│   ├── partials/
-│   │   ├── footer.ejs
-│   │   └── header.ejs
-│   ├── about.ejs
-│   ├── blog.ejs
-│   ├── contact.ejs
-│   ├── index.ejs
-│   └── saves.ejs
-├── index.js          // Main application file
-├── package.json      // Project dependencies and scripts
-├── posts.json        // Stores blog post data (ignored by Git, but structure shown for clarity)
-└── .gitignore        // Specifies files/folders to be ignored by Git
 ---
+
+## Project Structure
 
 ## How to Make It Work on Your System
 
