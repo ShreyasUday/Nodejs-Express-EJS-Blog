@@ -8,9 +8,9 @@ This is a simple blog website built with Node.js, Express.js for the backend, an
 * **View Posts:** All published posts are displayed.
 * **Persistent Storage (Local):** Posts are saved to a `posts.json` file on the server.
 
+```
 ## Project Structure
-
----
+```
 .
 ├── public/
 │   ├── images/
@@ -30,7 +30,7 @@ This is a simple blog website built with Node.js, Express.js for the backend, an
 ├── package.json      // Project dependencies and scripts
 ├── posts.json        // Stores blog post data (ignored by Git, but structure shown for clarity)
 └── .gitignore        // Specifies files/folders to be ignored by Git
----
+```
 
 ## How to Make It Work on Your System
 
