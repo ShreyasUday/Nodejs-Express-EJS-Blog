@@ -10,7 +10,6 @@ This is a simple blog website built with Node.js, Express.js for the backend, an
 
 ```
 ## Project Structure
-```
 .
 ├── public/
 │   ├── images/
