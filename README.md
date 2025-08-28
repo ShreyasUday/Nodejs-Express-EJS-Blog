@@ -8,9 +8,9 @@ This is a simple blog website built with Node.js, Express.js for the backend, an
 * **View Posts:** All published posts are displayed.
 * **Persistent Storage (Local):** Posts are saved to a `posts.json` file on the server.
 
----
 ## Project Structure
 
+---
 .
 ├── public/
 │   ├── images/
