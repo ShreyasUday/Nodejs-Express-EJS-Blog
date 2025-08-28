@@ -14,6 +14,73 @@ This is a simple blog website built with Node.js, Express.js for the backend, an
 
 ## Project Structure
 
+
+You are absolutely right! My apologies again. The "Project Structure" in your README.md is not rendering as intended on GitHub.
+
+The issue is that I missed a detail in the specific way the directory tree was formatted; it's using characters like │ and ├── that need to be within a plain text code block to preserve their alignment. When not in a code block, Markdown processors interpret spaces and these characters differently, causing it to look "messed up."
+
+Here's how to fix it:
+
+1. Edit Your README.md File Again 📝
+You need to wrap the entire "Project Structure" content with triple backticks (```) to explicitly tell Markdown to render it as a code block.
+
+Open your README.md file locally and make this change:
+
+Locate this section:
+
+Markdown
+
+---
+
+## Project Structure
+
+.
+├── public/
+│   ├── images/
+│   │   └── notepad.png
+│   ├── styles/
+│   │   └── main.css
+├── views/
+│   ├── partials/
+│   │   ├── footer.ejs
+│   │   └── header.ejs
+│   ├── about.ejs
+│   ├── blog.ejs
+│   ├── contact.ejs
+│   ├── index.ejs
+│   └── saves.ejs
+├── index.js          // Main application file
+├── package.json      // Project dependencies and scripts
+├── posts.json        // Stores blog post data (ignored by Git, but structure shown for clarity)
+└── .gitignore        // Specifies files/folders to be ignored by Git
+And change it to this:
+
+Markdown
+
+---
+
+## Project Structure
+
+.
+├── public/
+│   ├── images/
+│   │   └── notepad.png
+│   ├── styles/
+│   │   └── main.css
+├── views/
+│   ├── partials/
+│   │   ├── footer.ejs
+│   │   └── header.ejs
+│   ├── about.ejs
+│   ├── blog.ejs
+│   ├── contact.ejs
+│   ├── index.ejs
+│   └── saves.ejs
+├── index.js          // Main application file
+├── package.json      // Project dependencies and scripts
+├── posts.json        // Stores blog post data (ignored by Git, but structure shown for clarity)
+└── .gitignore        // Specifies files/folders to be ignored by Git
+
 ## How to Make It Work on Your System
 
 Follow these steps to get the blog website up and running on your local machine:
